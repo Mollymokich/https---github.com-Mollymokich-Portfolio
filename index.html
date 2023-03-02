@@ -6,27 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Moldir Amantay</title>
     <link rel="stylesheet" href="./index.css"/>
+    
   </head>
+  
   <body>
     <header class="header">
       <div class="container">
         <!-- Header nav -->
         <div class="header-nav">
-          <h3 class="name">Moldir Amantay</a>
+          <img class="name" src="./images/MA.png" alt="Moldir Amantay" width="70">
 
           <nav id="nav" class="nav">
             <ul class="nav-list">
                 <li class="nav-item">
-                    <a href="#!" class="nav-link active">About</a>
+                    <a href="#about" class="nav-link">About</a>
                   </li>
                   <li class="nav-item">
-                    <a href="#!" class="nav-link">Experience</a>
+                    <a href="#experience" class="nav-link">Experience</a>
                   </li>
                   <li class="nav-item">
-                    <a href="#!" class="nav-link">Projects</a>
+                    <a href="#projects" class="nav-link">Projects</a>
                   </li>
                   <li class="nav-item">
-                    <a href="#!" class="nav-link">Contacts</a>
+                    <a href="#contacts" class="nav-link">Contacts</a>
                   </li>
             </ul>
           </nav>
@@ -45,70 +47,131 @@
             </p>
           </div>
           <div class="checkOutMy-button"> 
+            <a href="https://docs.google.com/document/d/1_JwVn0dlTrvZOaMy-1aW8i-zuXZLRDFN/edit?usp=sharing&ouid=106433438289583408475&rtpof=true&sd=true">
             <img
               id="nav-btn-img"
               src="./images/button.png"
-              alt="Nav button"
-            />
-          
-        </div>
+              alt="Nav button"/></a>
+         </div>
 </header>
-          <section class="about">
-            <div class="container">
-              <div class="about-row">
-                <h1 class="title"> About me </h1>
-                  <p> I’m software developer and this is my portfolio.
-                    I’m software developer and this is my portfolio. I’m software developer and this is my portfolio. I’m software developer and this is my portfolio.</p>
-                <div class="about__img">
-                    <img src="./images/1.png" alt="me" />
-                </div>
-            </section>
-                <section class="experience">
-            
-                    <section class="myjobs"> 
-                        <div class="container">
-                            <div class="portfolio-title">
-                       <h1 class="">Projects I’ve Worked On</h1> 
+<section id= "about" class="about">
+  <div class="about-row">
+    <div>
+      <h1 class="title1">About me</h1>
+      <p class="title1__text">I’m software developer and this is my portfolio. I’m software developer and this is my portfolio. I’m software developer and this is my portfolio. I’m software developer and this is my portfolio.</p>
+      <ul class="list">
+        <li><input type="radio" name="item" id="item1" value="Item 1"><label for="item1">Item 1</label></li>
+        <li><input type="radio" name="item" id="item2" value="Item 2"><label for="item2">Item 2</label></li>
+        <li><input type="radio" name="item" id="item3" value="Item 3"><label for="item3">Item 3</label></li>
+      
+      </ul>
+    </div>
+    <div class="about__img">
+      <img src="./images/1.png" alt="me" />
+    </div>
+  </div>
+  
+</section>
+
+                <section id="experience" class="experience">
+                  <div class="experience">
+                    <h2>Experience</h2>
+                    <ul>
+                      <li>
+                        <div class="job">
+                          <h3> JVSpin (Russia)</h3>
+                          <div class="year">January 2023 - Currently</div>
+                          <p>Affiliate Manager. Recruiting new affiliates to the program and screening applications; plus managing the entire onboarding process. Drive and maintain creative units and promotions for the program. Developing personalized strategies for the program to deliver a specific volume of sales in a period of time. </p>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="job">
+                          <h3>ÇİM DÜNYASI (Turkey)</h3>
+                          <div class="year">April 2021 - April 2022</div>
+                          <p>Regional Sales Manager. Making a base, working with cold and warm calls. To hold 
+                            presentations, to build a logistics chain of supply of trees from Turkey to the CIS countries.                            
+                          </p>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="job">
+                          <h3>Bookmaker Office PariMatch.KZ (Ukraine, Kazakhstan)</h3>
+                          <div class="year">January 2020 - April 2021</div>
+                          <p>Head of Support Service. For 5 months, I worked as the call center operator and then became head of the whole department for Kazakhstan and Uzbekistan. Structuring the work of the department from scratch. Recruiting and training the team. Resolving misunderstandings on financial, legal, and equity issues of clients. Continuous feedback from customers on the products of the company.</p>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  </section>                  
+                  <section id="projects" class="myjobs">
+                    <div class="container">
                       <div class="portfolio-title">
-                        <div class="project" data-aos="flip-up">
-                          <img
-                            src="./images/22.png"
-                            alt="jumystap"
-                            class="project-img"
-                          />
-                          <h3 class="project-title">
-                            <a href="#!">Jumystap web</a>
-                          </h3>
+                        <h1 class="portfolio-title1 text-center">Projects I've Worked On</h1>
+                      </div>
+                  
+                      <div class="project row" data-aos="flip-up">
+                        <div class="col-md-6 order-md-1 project-item">
+                          <img src="./images/22.png" alt="jumystap" class="project-img" />
+                          <a href="https://github.com/Mollymokich/https---github.com-Mollymokich-pro3sorry.git">
+                          <h3 class="project-title">Media</h3></a>
+                          <p class="project-description">
+                            Loremproject-description ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget
+                            orci vitae nisi eleifend malesuada. Etiam vel elit metus. Pellentesque
+                            habitant morbi tristique senectus et netus et malesuada fames ac turpis
+                            egestas. Morbi lobortis felis eu enim eleifend, vitae pretium risus sagittis.
+                            Donec eget velit velit.
+                          </p>
                         </div>
-                
-                        <div class="project" data-aos="flip-up">
-                          <img
-                            src="./images/3.png"
-                            alt="Media"
-                            class="project-img"
-                          />
-                          <h3 class="project-title"><a href="#!">Media</a></h3>
+                        <div class="col-md-6 order-md-2 project-item">
+                          <img src="./images/3.png" alt="Media" class="project-img" />
+                          <a href="https://github.com/Mollymokich/Project-1.2..git">
+                            <h3 class="project-title">Jumystap web</h3>
+                          </a>
+                          <p class="project-description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget
+                            orci vitae nisi eleifend malesuada. Etiam vel elit metus. Pellentesque
+                            habitant morbi tristique senectus et netus et malesuada fames ac turpis
+                            egestas. Morbi lobortis felis eu enim eleifend, vitae pretium risus sagittis.
+                            Donec eget velit velit.
+                          </p>
                         </div>
-                       </div>
-                    </section>
-                    <section class="sayHello"> 
-                        <div class="container">
-                            <div class="title">
-                                <h1 class="Hello">Say Hello</h1>
-                                <div class="title__text">
-                                            <p>I’m software developer and this is my portfolio.</p>
-                                        </div>
-                                     <a href="#!" class="btn"> Get In Touch </a>
-                                    </div>
-                                </div>
-                            </section>
+                      </div>
+                    </div>
+                  </section>
+                  <section id="contacts" class="sayHello"> 
+                    <div class="container">
+                      <div class="title">
+                        <h1 class="Hello">Say Hello</h1>
+                        <div class="title__text">
+                          <p>I’m software developer and this is my portfolio.</p>
+                        </div>
+                        <a href="#myModal" class="btn"> Get In Touch </a>
+                      </div>
+                    </div>
+                  </section>
+                  
+                  <div id="myModal" class="modal">
+                    <div class="modal-content">
+                      <span class="close">&times;</span>
+                  
+                      <form>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message"></textarea>
+                        <input type="submit" value="Send">
+                      </form>
+                    </div>
+                  </div>
                             <footer class="footer">
                                 <div class="container">
                                     <div class="NF">
-                                        <h2 class="NF">Made with ❤️ at nFactorial in 2022.</h2>
-                                        <h3 class="Credits">Credits: photos from Unsplash.com, icons from Icons8.</h3>
+                                        <h5 class="NF">Made with ❤️ at nFactorial in 2022.</h5>
+                                        <h6 class="Credits">Credits: photos from Unsplash.com, icons from Icons8.</h6>
                                         </div>
                                     </footer>
                                     <script src="./index.js"></script>
-  </body>
+                                  </body>
 </html>
